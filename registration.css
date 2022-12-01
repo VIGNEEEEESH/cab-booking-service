@@ -1,0 +1,85 @@
+h5{
+    
+    font-family:phosphate;
+    margin-left:20px;
+
+    
+}
+#h2{
+    margin-top:5px;
+    font-family:phosphate;
+}
+#h2:hover{
+    color:gold;
+}
+#submit{
+    margin-left:20px;
+    font-family:phosphate;
+    width:400px;
+    font-size: 30px;
+
+}
+.navbar-brand{
+    font-family:phosphate;
+   
+}
+.navbar-brand:hover{
+    color:black;
+   
+}
+
+.first_name{
+    width:400px;
+}
+.last_name{
+    width:400px;
+}
+.email{
+    width:400px;
+}
+.create_password{
+    width:400px;
+}
+.mobile{
+    width:400px;
+}
+.address{
+    width:400px;
+}
+.name{
+    width:400px;
+}
+#password{
+    width:400px;
+}
+
+
+
+#main{
+    width:450px;
+    height: 680px;
+    border:2px solid white;
+    display:flex;
+    margin-top:40px;
+    margin-left:520px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+    
+  }
+  #main div{
+    
+    flex:1;
+  }
+#create_password{
+    width:400px;
+}
+
+
+
+

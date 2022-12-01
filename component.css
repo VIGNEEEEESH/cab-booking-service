@@ -1,0 +1,86 @@
+.navbar-brand{
+    font-family:phosphate;
+}
+#myVideo {
+    position:relative ;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(20, 19, 19, 0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    height:709px;
+    font-family:phosphate;
+  }
+  .h1{
+    font-family:phosphate;
+    color:white;
+    margin-left:400px;
+  }
+  .sedandiv{
+    background-color: coral;
+    width:299px;
+    margin-top:-8px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+  }
+  #sedan1{
+    margin-top:-5px;
+    margin-left:100px;
+    
+  }
+  #sedan1img{
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  }
+  #sedan2{
+   padding-top:20px;
+  }
+  .sedanh1{
+    margin-left:10px;
+    padding-top:10px;
+   
+  }
+  h6{
+    padding-left:40px;
+  }
+  #hh{
+    padding-bottom:10px;
+  }
+  #sedan3{
+    margin-top:-692px;
+    padding-left:450px;
+  }
+  #sedan4{
+    padding-top:20px;
+  }
+  #sedan5{
+    margin-top:-692px;
+    padding-left:450px;
+  }
+  #sedan6{
+    padding-top:20px;
+  }
+  .hatchbackh1{
+    margin-left:390px;
+  }
+ 
+ 
+  
+
+

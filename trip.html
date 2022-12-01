@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="trip.js"></script>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+   
+
+       
+   <style>
+    #myVideo{
+       width:1450px ;
+    }
+   </style>
+    </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-dark  bg-danger">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Grandpa's trip</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <button type="button" class="btn btn-dark" onclick="location.href='Registration.php';">Log-out</button>
+                       
+                
+            </div> 
+        </nav>
+        <video autoplay muted loop id="myVideo">
+            <source src="20221030-181546-544.mp4" type="video/mp4">
+          </video>
+          
+          <!-- Optional: some overlay text to describe the video -->
+          <div class="content">
+            <form>
+            <h1>Planning for a trip??</h1>
+            <h3>Here we go</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4>Where??</h4>
+            <input type="text">
+            <br>
+            <br>
+            <h4>When??</h4>
+            <input type="date">
+            <br>
+            <br>
+            <h4>How??</h4>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Vehicle Type
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+                  <li><a class="dropdown-item" href="hatchback.html">Hatchback</a></li>
+                  <li><a class="dropdown-item" href="suv.html">SUV</a></li>
+                  <li><a class="dropdown-item" href="sedan.html">Sedan</a></li>
+                  <li><a class="dropdown-item" href="muv.html">MUV</a></li>
+                  <li><a class="dropdown-item" href="coupe.html">Coupe</a></li>
+                  <li><a class="dropdown-item" href="convertibles.html">Convertibles</a></li>
+                  <li><a class="dropdown-item" href="pick-uptrucks.html">Pick-up Trucks</a></li>
+                </ul>
+              </div>
+           
+                <br>
+            <br>
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>
+            
+   
